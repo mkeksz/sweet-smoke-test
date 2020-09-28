@@ -1,0 +1,17 @@
+@mixin font($family: $defaultFont, $weight: 400, $size: 14px, $style: normal) {
+  font-family: $family, sans-serif;
+  font-weight: $weight;
+  font-size: $size;
+  font-style: $style;
+}
+@mixin grid($justify: stretch, $align: stretch) {
+  display: grid;
+  justify-items: $justify;
+  align-items: $align;
+}
+@mixin background-image($url, $repeat: no-repeat, $size: contain, $position: center) {
+  background-image: url($url);
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $position;
+}
