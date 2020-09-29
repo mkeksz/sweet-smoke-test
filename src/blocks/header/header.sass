@@ -3,19 +3,6 @@
  place-content: space-between
  padding: 63px 0
  z-index: 10
-
-.header__logo
- font-family: Ubuntu, sans-serif
- font-weight: 500
- font-size: 25px
- >a
-  color: #61e9c2
-  >span
-   color: #232323
-  >img
-   margin-right: 7px
-
-
 .menu
  display: flex
  flex-direction: row
@@ -46,3 +33,17 @@
   border-radius: 1px
   background-color: #fff
   margin: 2px 0
+
+@media (max-width: 768px)
+ .header
+  padding: 20px 0
+ .menu__shape
+  width: 10px
+  height: 10px
+  margin-right: 10px
+ .menu__burger
+  height: 35px
+  width: 35px
+  >div
+   width: 14px
+   height: 2px

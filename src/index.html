@@ -4,14 +4,17 @@
     @@include('parts/head.html', {"title": "Shoe Shop"})
   </head>
   <body>
-    <div class="banner">
-      <div class="wrapper">
-        @@include('blocks/header/header.html') @@include('blocks/title-page/title-page.html')
+    <div class="page">
+      <div class="banner">
+        <div class="wrapper">
+          @@include('blocks/header/header.html') @@include('blocks/title-page/title-page.html')
+        </div>
+        @@include('blocks/memo-page/memo-page.html')
+        @@include('blocks/soc-buttons/soc-buttons.html')
+        <div class="banner__background"></div>
+        <div class="banner__img"></div>
       </div>
-      <div class="wrapper-1400">@@include('blocks/memo-page/memo-page.html')</div>
-      @@include('blocks/soc-buttons/soc-buttons.html')
-      <div class="banner__background"></div>
-      <div class="banner__img"></div>
     </div>
+    <div class="wrapper">@@include('blocks/footer/footer.html')</div>
   </body>
 </html>

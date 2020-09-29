@@ -7,7 +7,7 @@
 @import 'components/reset'
 
 // Blocks
-@import '../blocks/header/header', '../blocks/title-page/title-page', '../blocks/memo-page/memo-page', '../blocks/soc-buttons/soc-buttons'
+@import '../blocks/header/header', '../blocks/title-page/title-page', '../blocks/memo-page/memo-page', '../blocks/soc-buttons/soc-buttons', '../blocks/footer/footer', '../blocks/logo/logo'
 
 *
   font-family: inherit
@@ -45,10 +45,36 @@ body
   height: 100%
   z-index: -1
 
-
+.page
+  min-height: 100vh
 .wrapper
   max-width: 1170px
   margin: auto
-.wrapper-1400
-  max-width: 1400px
-  margin: auto
+
+@media (max-width: 1300px)
+  .wrapper
+    padding: 0 20px
+  .banner__img
+    left: 40px
+    top: 80px
+    background-size: 400px 400px
+@media (max-width: 768px)
+  .wrapper
+    padding: 0 10px
+  .banner
+    height: 880px
+  .banner__img
+    left: 0
+    top: 40px
+    background-size: 300px 300px
+  .banner__background
+    margin-left: 0
+    background: #e9e9e9 linear-gradient(80deg, #e9e9e9 0%, #e9e9e9 49%, #e9e9e9 50%, #82f4d3 50%, #82f4d3 100%) no-repeat center
+@media (max-width: 425px)
+  .banner__background
+    background: #e9e9e9 linear-gradient(82deg, #e9e9e9 0%, #e9e9e9 49%, #e9e9e9 50%, #82f4d3 50%, #82f4d3 100%) no-repeat center
+@media (max-width: 375px)
+  .banner
+    height: 850px
+  .banner__img
+    top: 20px
