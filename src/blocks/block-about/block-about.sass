@@ -1,0 +1,74 @@
+.block-about
+  position: relative
+  padding-top: 100px
+.block-about__img
+  background-color: #eeeded
+  background-image: url("/static/img/sneakers_2.png")
+  width: 690px
+  height: 590px
+  background-blend-mode: multiply
+  margin-left: -117px
+  background-position: center
+  background-repeat: no-repeat
+
+.block-about__text
+  width: 650px
+  position: absolute
+  right: 0
+  top: 44%
+  font-family: 'Cormorant Garamond', sans-serif
+  font-size: 45px
+  font-weight: 600
+  >p
+    font-family: Poppins,sans-serif
+    font-weight: 300
+    font-size: 15px
+    padding-top: 20px
+    line-height: 2
+    max-width: 580px
+    color: rgb(136, 136, 136)
+  >div
+    padding-top: 35px
+    display: flex
+    place-content: flex-end
+
+@media (max-width: 1400px)
+  .block-about__img
+    width: 690px
+    height: 590px
+    margin-left: 0
+  .block-about__text
+    width: 550px
+    top: 30%
+@media (max-width: 1024px)
+  .block-about__img
+    width: 500px
+    height: 450px
+    background-size: 350px 350px
+  .block-about__text
+    width: 350px
+    top: 30%
+    font-size: 30px
+    >p
+      font-size: 14px
+      padding-top: 10px
+      line-height: 1.7
+@media (max-width: 768px)
+  .block-about__img
+    width: 300px
+    height: 256px
+    background-size: 200px 200px
+  .block-about__text
+    width: 100%
+    top: 20px
+    font-size: 26px
+    >p
+      font-size: 12px
+      line-height: 1.5
+@media (max-width: 375px)
+  .block-about__text
+    top: 10px
+    font-size: 24px
+    >p
+      font-size: 12px
+      line-height: 1.5
