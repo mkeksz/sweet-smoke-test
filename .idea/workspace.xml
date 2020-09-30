@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9103ea5-9f27-4af0-b0bc-ab973a852f2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blocks/block-popular-items/block-popular-items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/block-popular-items/block-popular-items.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sneakers_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sneakers_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sneakers_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sneakers_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/block-collection/block-collection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/block-collection/block-collection.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/woman_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.sass" afterDir="false" />
@@ -115,7 +112,7 @@
       <workItem from="1601308109407" duration="1010000" />
       <workItem from="1601309140897" duration="10400000" />
       <workItem from="1601375632240" duration="11629000" />
-      <workItem from="1601479728413" duration="4149000" />
+      <workItem from="1601479728413" duration="6782000" />
     </task>
     <task id="LOCAL-00001" summary="created first-block">
       <created>1601319389854</created>
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601387497974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created block-popular-items.html">
+      <created>1601484301544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601484301544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,32 +165,37 @@
     <MESSAGE value="created first-block" />
     <MESSAGE value="created footer" />
     <MESSAGE value="created about" />
-    <option name="LAST_COMMIT_MESSAGE" value="created about" />
+    <MESSAGE value="created block-popular-items.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="created block-popular-items.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1601482370369">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1601485324454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601482370369" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1601482370369">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601485324454" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1601485324454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601482370369" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1601482370369">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601485324454" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1601485324454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601482370369" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1601482370369">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601485324454" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1601485324454">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601482370369" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601485324454" />
     <state x="57" y="173" key="SettingsEditor" timestamp="1601313276053">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="57" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601313276053" />
-    <state x="516" y="269" key="Vcs.Push.Dialog.v2" timestamp="1601387499014">
+    <state x="516" y="269" key="Vcs.Push.Dialog.v2" timestamp="1601484302767">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="516" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601387499014" />
+    <state x="516" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601484302767" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601485097954">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601485097954" />
   </component>
 </project>

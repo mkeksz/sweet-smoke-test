@@ -1,0 +1,80 @@
+.block-collection
+  padding-top: 132px
+  display: flex
+  flex-direction: row
+  place-content: space-between
+  place-items: center
+.block-collection__img
+  >.frame
+    width: 480px
+    height: 520px
+    background-image: url("/static/img/woman_1.png")
+    background-color: #fde7ed
+.block-collection__text
+  padding-right: 20px
+  >h3
+    font-family: 'Cormorant Garamond', sans-serif
+    font-size: 45px
+    font-weight: 500
+  >p
+    padding-top: 48px
+    font-family: Poppins,sans-serif
+    font-size: 15px
+    font-weight: 300
+    color: #888
+    line-height: 2
+    max-width: 550px
+  >div
+    padding-top: 50px
+.block-collection__back-img
+  width: 292px
+  height: 390px
+  background-color: #9fecd6
+  position: absolute
+  right: -100px
+  bottom: -100px
+  z-index: -1
+
+@media (max-width: 1374px)
+  .block-collection__back-img
+    right: -20px
+    bottom: -20px
+
+@media (max-width: 1024px)
+  .block-collection__img
+    >.frame
+      width: 280px
+      height: 320px
+      background-size: contain
+      background-position: bottom
+  .block-collection__back-img
+    width: 192px
+    height: 290px
+    right: -10px
+    bottom: -10px
+
+@media (max-width: 768px)
+  .block-collection__text
+    >h3
+      font-size: 25px
+    >p
+      padding-top: 28px
+      font-size: 13px
+      line-height: 1.6
+    >div
+      padding-left: 10px
+  .block-collection__img
+    >.frame
+      width: 180px
+      height: 220px
+  .block-collection__back-img
+    width: 92px
+    height: 190px
+@media (max-width: 320px)
+  .block-collection__img
+    >.frame
+      width: 120px
+      height: 160px
+  .block-collection__back-img
+    width: 92px
+    height: 90px
