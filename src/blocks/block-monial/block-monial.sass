@@ -1,0 +1,68 @@
+.block-monial
+  margin-top: 200px
+  background-color: #f8f8f8
+.block-monial__content
+  text-align: center
+  padding: 100px 0 !important
+  position: relative
+  display: flex
+  flex-direction: column
+  place-content: center
+  place-items: center
+  >h2
+    font-family: 'Cormorant Garamond', sans-serif
+    font-size: 45px
+    font-weight: 500
+  >p
+    font-family: Poppins, sans-serif
+    font-size: 15px
+    font-weight: 300
+    color: #888
+    line-height: 1.667
+    padding-top: 34px
+    padding-bottom: 34px
+    max-width: 840px
+  >div
+    font-family: Poppins,sans-serif
+  >div:first-of-type
+    font-size: 18px
+    color: #666
+  >div:last-of-type
+    font-size: 15px
+    color: #51cda9
+    padding-top: 8px
+  >svg:first-of-type
+    position: absolute
+    left: -114px
+    top: 42%
+  >svg:last-of-type
+    position: absolute
+    right: -114px
+    top: 42%
+
+@media (max-width: 1440px)
+  .block-monial__content
+    >svg:first-of-type
+      left: 0
+    >svg:last-of-type
+      right: 0
+@media (max-width: 1200px)
+  .block-monial__content
+    >svg:first-of-type
+      left: 10px
+    >svg:last-of-type
+      right: 10px
+    >p
+      max-width: 640px
+@media (max-width: 1024px)
+  .block-monial__content
+    >svg:first-of-type
+      display: none
+    >svg:last-of-type
+      display: none
+@media (max-width: 375px)
+  .block-monial__content
+    >h2
+      font-size: 35px
+    >p
+      max-width: 640px
