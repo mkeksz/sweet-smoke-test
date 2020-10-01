@@ -19,32 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9103ea5-9f27-4af0-b0bc-ab973a852f2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blocks/block-slider/block-slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/block-slider/block-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blocks/block-slider/block-slider.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/img_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/block-about/block-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/block-about/block-about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/block-about/block-about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/block-about/block-about.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/block-collection/block-collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/block-collection/block-collection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/block-collection/block-collection.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/block-collection/block-collection.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/footer/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/logo/logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/logo/logo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/second.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parts/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/parts/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.sass" afterDir="false" />
-    </list>
+    <list default="true" id="c9103ea5-9f27-4af0-b0bc-ab973a852f2f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,scss,sass,css,html}" />
@@ -92,6 +67,11 @@
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mrkek\Desktop\sweet-smoke-test\docs" />
+    </key>
   </component>
   <component name="RunManager" selected="Gulp.js.serve">
     <configuration default="true" type="js.build_tools.gulp">
@@ -145,7 +125,7 @@
       <workItem from="1601375632240" duration="11629000" />
       <workItem from="1601479728413" duration="8208000" />
       <workItem from="1601503518704" duration="2378000" />
-      <workItem from="1601565158934" duration="10331000" />
+      <workItem from="1601565158934" duration="10644000" />
     </task>
     <task id="LOCAL-00001" summary="created first-block">
       <created>1601319389854</created>
@@ -189,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601505918748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="complete">
+      <created>1601575636378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601575636378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,30 +206,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1601571783710">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1601575612627">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601571783710" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1601571783710">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601575612627" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1601575612627">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601571783710" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1601571783710">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601575612627" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1601575612627">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601571783710" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1601571783710">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601575612627" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1601575612627">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601571783710" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601575612627" />
     <state x="57" y="173" key="SettingsEditor" timestamp="1601313276053">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="57" y="173" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601313276053" />
-    <state x="3" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601505921021">
+    <state x="3" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601575637879">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="3" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601505921021" />
+    <state x="3" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1601575637879" />
     <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601485097954">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
