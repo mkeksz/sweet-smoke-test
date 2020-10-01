@@ -47,7 +47,7 @@ function js_build() {
   return src('src/js/**.js')
     .pipe(
       fileinclude({
-        prefix: '//', // Чтобы не ругался linter
+        prefix: '///', // Чтобы не ругался linter
       }),
     )
     .pipe(sourcemaps.init())

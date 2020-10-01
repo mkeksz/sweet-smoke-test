@@ -1,0 +1,186 @@
+.block-slider
+  padding-top: 90px
+  >h3
+    font-family: 'Cormorant Garamond', sans-serif
+    font-size: 45px
+    font-weight: 500
+    text-align: center
+
+.block-slider__items
+  display: flex
+  flex-direction: row
+  place-content: space-between
+
+.block-slider__img
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  width: 440px
+  height: 470px
+  margin: 0 70px 0 80px
+  position: relative
+.block-slider__back-img
+  position: absolute
+  width: 264px
+  height: 340px
+  background-image: linear-gradient( 50deg, rgb(100,232,194) 0%, rgb(212,252,240) 100%)
+  opacity: 0.722
+  right: -150px
+  bottom: -145px
+  z-index: -1
+  >span
+    font-family: Poppins, sans-serif
+    font-weight: bold
+    font-size: 153.94px
+    display: block
+    transform: rotateZ(-90deg)
+    position: absolute
+    bottom: 90px
+    left: 32px
+    color: rgba(255, 255, 255, .129)
+.block-slider__back-img-2
+  opacity: .722
+  border: 10px solid rgb(247, 247, 247)
+  background-color: rgba(130, 244, 211, 0)
+  position: absolute
+  left: -68px
+  top: -56px
+  width: 288px
+  height: 370px
+  z-index: -1
+
+.block-slider__item
+  display: none
+  flex-direction: row
+  place-content: space-between
+  padding-top: 80px
+.block-slider__item_active
+  display: flex
+.block-slider__text
+  >div:first-of-type
+    >h4
+      font-family: Poppins, sans-serif
+      font-size: 20px
+      font-weight: 500
+      >span
+        font-family: 'Cormorant Garamond',sans-serif
+        font-size: 30px
+        font-weight: bold
+    >p
+      color: #888
+      padding-top: 30px
+      font-size: 15px
+      line-height: 1.7
+      padding-right: 50px
+  >div:last-of-type
+    padding-top: 60px
+    display: flex
+    place-content: flex-end
+.block-slider__mover
+  padding-top: 10px
+  text-align: right
+  display: flex
+  flex-direction: row
+  place-items: center
+  place-content: flex-end
+.block-slider__circle
+  width: 14px
+  height: 14px
+  background-color: #e1e1e1
+  display: block
+  border-radius: 50%
+  margin-right: 15px
+.block-slider__circle_black
+  background-color: #232323
+.block-slider__circle_light
+  background-color: #a2f2db
+.block-slider__circle-big
+  width: 29px
+  height: 29px
+  border: 6px solid #a2f2db
+  border-radius: 50%
+  margin-right: 19px
+  margin-left: 15px
+.block-slider__pagin
+  font-weight: 500
+  font-family: Poppins, sans-serif
+  font-size: 20px
+  margin-right: 26px
+.block-slider__arrow
+  font-size: 33px
+  margin-top: -6px
+  margin-right: 10px
+  display: block
+  cursor: pointer
+  user-select: none
+.block-slider__arrow_active
+  color: #a2f2db
+@media (max-width: 1024px)
+  .block-slider__img
+    width: 340px
+    height: 370px
+    margin: 0 70px 0 10px
+  .block-slider__back-img
+    width: 164px
+    height: 240px
+    right: -40px
+    bottom: -35px
+    >span
+      display: none
+  .block-slider__back-img-2
+    left: -20px
+    top: -20px
+    width: 208px
+    height: 270px
+@media (max-width: 768px)
+  .block-slider__img
+    width: 158px
+    height: 170px
+    margin: 0 20px 0 0
+  .block-slider__back-img
+    width: 64px
+    height: 140px
+    right: -10px
+    bottom: -10px
+    >span
+      display: none
+  .block-slider__back-img-2
+    left: -10px
+    top: -10px
+    width: 108px
+    height: 170px
+
+  .block-slider__text
+    >div:first-of-type
+      >p
+        padding-top: 20px
+        font-size: 14px
+        line-height: 1.6
+        padding-right: 0
+    >div:last-of-type
+      padding-top: 20px
+@media (max-width: 375px)
+  .block-slider__img
+    width: 108px
+    height: 120px
+  .block-slider__back-img
+    width: 64px
+    height: 100px
+  .block-slider__back-img-2
+    width: 108px
+    height: 100px
+
+  .block-slider__text
+    >div:first-of-type
+      >p
+        padding-top: 20px
+        font-size: 13px
+        line-height: 1.5
+        padding-right: 0
+    >div:last-of-type
+      padding-top: 20px
+  .block-slider__circle
+    margin-right: 5px
+  .block-slider__pagin
+    font-size: 15px
+    margin-right: 16px

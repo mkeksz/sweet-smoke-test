@@ -1,4 +1,1 @@
-//include('components/component.js')
-
-let text = 'its main.js'
-console.log(text)
+///include('../blocks/block-slider/block-slider.js')
